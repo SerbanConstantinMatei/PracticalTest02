@@ -34,14 +34,29 @@
             android:textAlignment="center"
             android:textSize="24sp" />
 
-        <EditText
-            android:id="@+id/port"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="port"
-            android:inputType="textPersonName"
-            android:textAlignment="center" />
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="port"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="address"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
